@@ -1,2 +1,2 @@
-# Interesting-Deep-Learning-Losses
-Some losses that are not in the usual libraries.
+# Interesting-Deep-Learning-Functions
+Some losses, layers and other stuff that is not in the usual libraries.
