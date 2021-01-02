@@ -4,6 +4,13 @@ from tensorflow.keras import regularizers
 from tensorflow.keras import constraints
 from tensorflow.keras import backend as K
 
+"""
+kwargs={'groups': 2,
+'epsilon': 0.1,
+'gamma_regularizer': regularizers.l2(0.01),
+'beta_regularizer': regularizers.l2(0.01)},
+input_shape=(3, 4, 2))
+"""
 
 class GroupNormalization(Layer):
     """Group normalization layer
